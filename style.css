@@ -174,3 +174,104 @@
 .social-icons li img{
     width: 100%;
 }
+/* special card start here */
+.special-card-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    margin: 40px 0px;
+}
+.special-card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+}
+.special-card .subtitle{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 25px;
+    background-color: rgba(82, 195, 3, 0.2);
+    border-radius: 8px;
+    width: 180px;
+    margin: 0 auto;
+}
+.special-card h2{
+    font-size: 40px;
+    font-weight: 600; 
+    text-align: center;
+}
+.special-card p{
+    text-align: center;
+    opacity: 60%;
+    font-weight: 400;
+    font-size: 18px;
+}
+.special-card-btn{
+   padding-top: 40px;
+}
+.special-card-image{
+    width: 400px;  
+}
+.special-card-image img{
+    width: 100%;
+}
+/* footer section start here */
+.footer-section{
+    background-image: url(./assets/social-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-color:rgba(246, 241, 241, 0.9);
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container h1{
+    font-size: 38px;
+    font-weight: 700px;
+    width: 630px;
+    text-align: center;
+}
+.footer-container p{
+    opacity: 60%;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 0px;
+}
+.footer-container button{
+    font-weight: 700;
+    opacity: 60%;
+    font-size: 22px;
+    margin: 20px 0px;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    width: 800px;
+    padding: 20px 0px;
+}
+.footer-social-icons{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-social-icons li{
+    width: 50px;
+}
+.footer-social-icons li img{
+    width: 100%;
+}
