@@ -113,3 +113,64 @@
 .card-image img{
     width: 100%;
 }
+.card-btn{
+    margin-top: 80px;
+    text-align: center;
+}
+/* About-us section start here */
+.about-us-container{
+    display: flex;
+    margin-bottom: 30px;
+    margin-right: 0;
+    width: 100%;
+}
+.about-image{
+    width: 45%;
+}
+.about-image img{
+    width: 100%;
+}
+.about-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+}
+.about-content h1{
+    font-size: 30px;
+    font-weight: 700;
+    width: 570px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.about-content p{
+    font-size: 18px;
+    opacity: 60%;
+    font-weight: 400;
+}
+.about-content button{
+    font-weight: 700;
+    opacity: 60%;
+    font-size: 22px;
+    margin-top: 20px;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+    width: 100%;
+    padding: 20px 0px;
+}
+.social-icons{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+.social-icons li{
+    width: 50px;
+}
+.social-icons li img{
+    width: 100%;
+}
