@@ -1,0 +1,58 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+  }
+  
+  
+/* universal style here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.primary-btn{
+    background-color: #52c303;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* hero-image section start here */
+.hero-image{
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+}
+.hero-image-container{
+    color: white;
+    width: 70%;
+    text-align: center;
+
+}
+.hero-image-container .subtitle{
+    font-size: 32px;
+    font-weight: 400;
+    opacity: 80%;
+}
+.hero-image-container .hero-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+.hero-image-container p{
+    font-weight: 400;
+    opacity: 70%;
+    padding: 20px 20px;
+}
