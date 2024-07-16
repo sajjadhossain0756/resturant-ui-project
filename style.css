@@ -283,7 +283,9 @@
 /* responsive design for mobile device or small device */
 @media screen and (max-width:576px) {
 
-
+    body{
+        overflow-x: hidden;
+    }
     
     /* hero-image section start here */
     .hero-image-container{
@@ -326,10 +328,11 @@
     .about-us-container{
         flex-direction: column;
         margin: 40px 20px;
+        
     }
     .about-image,
     .about-content{
-        width: 90%;
+        width: 380px;
     }
     .about-content h1{
         font-size: 25px;
@@ -339,7 +342,17 @@
     }
     /* special card start here */
     .special-card-section{
-        margin: 30px 20px;
+        margin: 30px 25px 30px 15px;
+    }
+    .special-card{
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 90%;
+        margin-right: 25px;
+    }
+    .special-card-image{
+        width: 100%;  
     }
     /* footer section start here */
     .footer-section{
