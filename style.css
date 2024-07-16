@@ -198,7 +198,7 @@
     padding: 15px 25px;
     background-color: rgba(82, 195, 3, 0.2);
     border-radius: 8px;
-    width: 180px;
+    max-width: 180px;
     margin: 0 auto;
 }
 .special-card h2{
@@ -216,7 +216,7 @@
    padding-top: 40px;
 }
 .special-card-image{
-    width: 400px;  
+    max-width: 400px;  
 }
 .special-card-image img{
     width: 100%;
@@ -336,6 +336,10 @@
     }
     .about-image img{
         width: 100%;
+    }
+    /* special card start here */
+    .special-card-section{
+        margin: 30px 20px;
     }
     /* footer section start here */
     .footer-section{
