@@ -327,12 +327,12 @@
     /* About-us section start here */
     .about-us-container{
         flex-direction: column;
-        margin: 40px 20px;
+        margin: 40px 30px;
         
     }
     .about-image,
     .about-content{
-        width: 380px;
+        width: 85%;
     }
     .about-content h1{
         font-size: 25px;
