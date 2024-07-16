@@ -27,7 +27,7 @@
     background-image: url(./assets/hero-bg.png);
     background-size: cover;
     background-position: center;
-    height: 600px;
+    max-height: 600px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@
     color: white;
     width: 70%;
     text-align: center;
-
+    padding: 60px 0px;
 }
 .hero-image-container .subtitle{
     font-size: 32px;
@@ -63,7 +63,7 @@
 }
 .food-card-content{
     text-align: center;
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
 }
 .food-card-content .subtitle{
@@ -83,7 +83,7 @@
     justify-content: center;
 }
 .food-card{
-    width: 350px;
+    max-width: 350px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -108,7 +108,7 @@
     font-weight: 500;
 }
 .food-card .card-image{
-    width: 350px;
+    max-width: 350px;
 }
 .card-image img{
     width: 100%;
@@ -126,9 +126,11 @@
 }
 .about-image{
     width: 45%;
+    
 }
 .about-image img{
     width: 100%;
+    border-radius: 8px;
 }
 .about-content{
     text-align: center;
@@ -141,7 +143,7 @@
 .about-content h1{
     font-size: 30px;
     font-weight: 700;
-    width: 570px;
+    max-width: 570px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -242,7 +244,7 @@
 .footer-container h1{
     font-size: 38px;
     font-weight: 700px;
-    width: 630px;
+    max-width: 630px;
     text-align: center;
 }
 .footer-container p{
@@ -260,7 +262,7 @@
     border-left: none;
     border-right: none;
     background-color: transparent;
-    width: 800px;
+    max-width: 800px;
     padding: 20px 0px;
 }
 .footer-social-icons{
@@ -270,8 +272,114 @@
     gap: 20px;
 }
 .footer-social-icons li{
-    width: 50px;
+    max-width: 50px;
 }
 .footer-social-icons li img{
     width: 100%;
+}
+.hide{
+    display: none;
+}
+/* responsive design for mobile device or small device */
+@media screen and (max-width:576px) {
+
+
+    
+    /* hero-image section start here */
+    .hero-image-container{
+        width: 100%;
+        padding: 30px 20px;
+    }
+    .hero-image-container .hero-title{
+        font-size: 40px;
+    }
+    /* Favorite food-card start here */
+    .food-card-section{
+        width: 100%;
+        margin: 80px 20px;
+    }
+    .food-card-content{
+        padding-right: 25px;
+    }
+    .food-card-content .title{
+        font-size: 30px;
+        margin: 20px auto;
+    }
+    .food-cards{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+    .food-card{
+        width: 100%;
+        margin: 20px 25px 20px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-btn{
+        margin: 20px auto;
+        padding-right: 25px;
+    }
+    /* About-us section start here */
+    .about-us-container{
+        flex-direction: column;
+        margin: 40px 20px;
+    }
+    .about-image,
+    .about-content{
+        width: 90%;
+    }
+    .about-content h1{
+        font-size: 25px;
+    }
+    .about-image img{
+        width: 100%;
+    }
+    /* footer section start here */
+    .footer-section{
+        padding: 20px;
+    }
+    .footer-container h1{
+        font-size: 30px;
+    }
+    
+}
+/* responsive design for medium device or tablet */
+@media screen and (min-width:577px) and (max-width:992px) {
+    /* hero-image section start here */
+    .hero-image-container{
+        width: 100%;
+        padding: 50px;
+    }
+    /* Favorite food-card start here */
+    .food-card-section{
+        width: 100%;
+        margin: 80px 0px;
+    }
+    .food-cards{
+        flex-direction: column;
+    }
+    .food-card{
+        max-width: 500px;
+        margin: 30px auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .food-card .card-image{
+        max-width: 450px;
+    }
+    .card-btn{
+        margin: 30px auto;
+    }
+    /* About-us section start here */
+    .about-us-container{
+        flex-direction: column;
+        margin: 50px;
+    }
+    .about-image,
+    .about-content{
+        width: 90%;
+    }
 }
